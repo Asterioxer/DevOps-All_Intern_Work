@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Nomad Failure Flow";
+                "Nomad Failure Flow" -> "Config_2";
+                "Nomad Failure Flow" -> "Deploy_2";
+            }
+            

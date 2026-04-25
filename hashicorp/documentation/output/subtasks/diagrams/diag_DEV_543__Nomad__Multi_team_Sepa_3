@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Multi-team Separation Strategy";
+                "Multi-team Separation Strategy" -> "Config_3";
+                "Multi-team Separation Strategy" -> "Deploy_3";
+            }
+            

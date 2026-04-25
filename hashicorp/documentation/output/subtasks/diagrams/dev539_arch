@@ -1,0 +1,13 @@
+
+    digraph G {
+        node [shape=cylinder, style=filled, fillcolor=lightgrey];
+        OS [label="systemd-resolved
+(Port 53)"];
+        Consul [label="Consul DNS
+(Port 8600)", fillcolor=lightblue];
+        External [label="External DNS
+(8.8.8.8)"];
+        OS -> Consul [label=".consul domain"];
+        OS -> External [label="Other domains"];
+    }
+    

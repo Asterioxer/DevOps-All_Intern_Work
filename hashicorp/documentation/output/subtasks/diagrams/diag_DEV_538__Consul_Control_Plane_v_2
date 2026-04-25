@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Control Plane vs Client Agents";
+                "Control Plane vs Client Agents" -> "Config_2";
+                "Control Plane vs Client Agents" -> "Deploy_2";
+            }
+            

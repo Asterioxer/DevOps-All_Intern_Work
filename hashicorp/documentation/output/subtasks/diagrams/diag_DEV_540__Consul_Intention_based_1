@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Intention-based Access Control";
+                "Intention-based Access Control" -> "Config_1";
+                "Intention-based Access Control" -> "Deploy_1";
+            }
+            

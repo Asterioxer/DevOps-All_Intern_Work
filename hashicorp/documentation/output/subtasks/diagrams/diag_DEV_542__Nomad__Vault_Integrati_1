@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Vault Integration for Secret Injection";
+                "Vault Integration for Secret Injection" -> "Config_1";
+                "Vault Integration for Secret Injection" -> "Deploy_1";
+            }
+            

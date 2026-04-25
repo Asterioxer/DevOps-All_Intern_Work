@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Security Hardening Checklist";
+                "Security Hardening Checklist" -> "Config_2";
+                "Security Hardening Checklist" -> "Deploy_2";
+            }
+            

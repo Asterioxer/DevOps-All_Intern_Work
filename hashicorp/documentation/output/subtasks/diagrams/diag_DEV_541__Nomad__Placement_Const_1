@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Placement Constraints";
+                "Placement Constraints" -> "Config_1";
+                "Placement Constraints" -> "Deploy_1";
+            }
+            

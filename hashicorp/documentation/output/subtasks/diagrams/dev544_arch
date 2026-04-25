@@ -1,0 +1,9 @@
+
+    digraph G {
+        Alert [shape=invtriangle, color=red, style=filled];
+        Alert -> CheckRaft [label="1. Consensus?"];
+        CheckRaft -> CheckVault [label="2. Vault Sealed?"];
+        CheckVault -> CheckNodes [label="3. Node Drain?"];
+        CheckNodes -> Recovery [label="Execute Runbook"];
+    }
+    

@@ -1,0 +1,9 @@
+
+    digraph G {
+        Vault [shape=cylinder, fillcolor=yellow, style=filled];
+        Nomad [shape=box, fillcolor=green, style=filled];
+        Operator -> Nomad [label="ACL Token"];
+        Nomad -> Vault [label="Fetches Secrets"];
+        Vault -> Nomad [label="Injects into Task via Template"];
+    }
+    

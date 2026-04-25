@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Failure Redistribution";
+                "Failure Redistribution" -> "Config_2";
+                "Failure Redistribution" -> "Deploy_2";
+            }
+            

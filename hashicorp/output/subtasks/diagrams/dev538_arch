@@ -1,0 +1,10 @@
+
+    digraph G {
+        rankdir=LR;
+        node [shape=box, style=filled, color=lightblue];
+        ClientApp -> ConsulAgent [label="Registers"];
+        ConsulAgent -> ConsulServer [label="Syncs Catalog"];
+        ConsulServer -> ConsulServer [label="Raft Consensus"];
+        DNSQuery -> ConsulAgent [label="Resolves"];
+    }
+    

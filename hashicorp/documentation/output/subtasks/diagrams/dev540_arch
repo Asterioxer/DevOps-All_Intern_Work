@@ -1,0 +1,10 @@
+
+    digraph G {
+        node [shape=component];
+        AppA -> EnvoyA [dir=both];
+        EnvoyA -> EnvoyB [label="mTLS tunnel", color=red, penwidth=2];
+        EnvoyB -> AppB [dir=both];
+        ConsulServer -> EnvoyA [label="Issues Certs", style=dashed];
+        ConsulServer -> EnvoyB [label="Issues Certs", style=dashed];
+    }
+    

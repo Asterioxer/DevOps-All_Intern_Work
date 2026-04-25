@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Recursor Configuration";
+                "Recursor Configuration" -> "Config_2";
+                "Recursor Configuration" -> "Deploy_2";
+            }
+            

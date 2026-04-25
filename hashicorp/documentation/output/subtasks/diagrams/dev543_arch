@@ -1,0 +1,11 @@
+
+    digraph G {
+        Cluster [shape=Mrecord, label="Nomad Cluster"];
+        NS1 [shape=folder, label="Namespace: Payments"];
+        NS2 [shape=folder, label="Namespace: Frontend"];
+        Cluster -> NS1;
+        Cluster -> NS2;
+        TeamA -> NS1 [label="Restricted Access"];
+        TeamB -> NS2 [label="Restricted Access"];
+    }
+    

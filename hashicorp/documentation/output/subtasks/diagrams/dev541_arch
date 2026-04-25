@@ -1,0 +1,11 @@
+
+    digraph G {
+        node [shape=box3d, fillcolor=khaki, style=filled];
+        NomadServer -> PoolCompute;
+        NomadServer -> PoolMemory;
+        NomadServer -> PoolGPU;
+        PoolCompute -> Node1; PoolCompute -> Node2;
+        PoolMemory -> Node3;
+        PoolGPU -> Node4;
+    }
+    

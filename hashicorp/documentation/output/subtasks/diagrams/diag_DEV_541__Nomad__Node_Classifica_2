@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Node Classification Model";
+                "Node Classification Model" -> "Config_2";
+                "Node Classification Model" -> "Deploy_2";
+            }
+            

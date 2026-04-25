@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "DNS Resolution Architecture";
+                "DNS Resolution Architecture" -> "Config_2";
+                "DNS Resolution Architecture" -> "Deploy_2";
+            }
+            

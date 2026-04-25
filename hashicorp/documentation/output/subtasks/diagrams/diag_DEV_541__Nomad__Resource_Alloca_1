@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Resource Allocation Model";
+                "Resource Allocation Model" -> "Config_1";
+                "Resource Allocation Model" -> "Deploy_1";
+            }
+            

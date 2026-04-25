@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Failure Detection Mechanism";
+                "Failure Detection Mechanism" -> "Config_2";
+                "Failure Detection Mechanism" -> "Deploy_2";
+            }
+            

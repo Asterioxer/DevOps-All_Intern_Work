@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Nomad Integration";
+                "Nomad Integration" -> "Config_2";
+                "Nomad Integration" -> "Deploy_2";
+            }
+            

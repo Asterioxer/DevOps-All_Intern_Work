@@ -1,0 +1,11 @@
+{
+    "timestamp": "2026-02-20T11:01:08.162080",
+    "author": "Soham Mukherjee",
+    "generated_files": [
+        "high_level_arch.png",
+        "control_data_plane.png",
+        "bootstrapping_flow.png",
+        "Glynac_HashiCorp_Stack_Soham_Mukherjee.pdf",
+        "manifest.json"
+    ]
+}

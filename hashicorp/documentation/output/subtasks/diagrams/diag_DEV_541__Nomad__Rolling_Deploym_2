@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Rolling Deployment Strategy";
+                "Rolling Deployment Strategy" -> "Config_2";
+                "Rolling Deployment Strategy" -> "Deploy_2";
+            }
+            

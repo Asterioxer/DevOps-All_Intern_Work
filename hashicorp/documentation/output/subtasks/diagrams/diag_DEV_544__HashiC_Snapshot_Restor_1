@@ -1,0 +1,9 @@
+
+            digraph G {
+                rankdir=LR;
+                node [shape=box, style=filled, color=lightgrey, fontname="Helvetica"];
+                User -> "Snapshot Restore Procedure";
+                "Snapshot Restore Procedure" -> "Config_1";
+                "Snapshot Restore Procedure" -> "Deploy_1";
+            }
+            

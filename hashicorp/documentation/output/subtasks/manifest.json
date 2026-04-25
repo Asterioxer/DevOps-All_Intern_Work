@@ -1,0 +1,100 @@
+{
+    "generated_docs": [
+        {
+            "file": "DEV-538_Consul_Service_Discovery_Soham_Mukherjee.pdf",
+            "title": "DEV-538: Consul Service Discovery",
+            "timestamp": "2026-03-02T13:33:12.898251Z",
+            "sections": [
+                "Control Plane vs Client Agents",
+                "Service Registration Flow",
+                "DNS Resolution Workflow",
+                "Health Check Configuration",
+                "Failure Detection Mechanism",
+                "Nomad Integration",
+                "Validation & Troubleshooting",
+                "Best Practices"
+            ]
+        },
+        {
+            "file": "DEV-539_Consul_DNS_Forwarding_Soham_Mukherjee.pdf",
+            "title": "DEV-539: Consul DNS Forwarding",
+            "timestamp": "2026-03-02T13:33:37.963558Z",
+            "sections": [
+                "DNS Resolution Architecture",
+                "Recursor Configuration",
+                "Systemd-resolved Integration",
+                "Forwarding Rules",
+                "Internal vs External Logic",
+                "Debugging DNS Failures",
+                "Production Configuration Patterns"
+            ]
+        },
+        {
+            "file": "DEV-540_Consul_mTLS_Best_Practices_Soham_Mukherjee.pdf",
+            "title": "DEV-540: Consul mTLS Best Practices",
+            "timestamp": "2026-03-02T13:34:01.261132Z",
+            "sections": [
+                "Zero Trust Architecture",
+                "Certificate Authority Generation",
+                "Envoy Sidecar Explanation",
+                "Intention-based Access Control",
+                "Certificate Rotation Strategy",
+                "mTLS Validation Process"
+            ]
+        },
+        {
+            "file": "DEV-541_Nomad_Node_Pool_Soham_Mukherjee.pdf",
+            "title": "DEV-541: Nomad Node Pool Architecture",
+            "timestamp": "2026-03-02T13:34:30.366432Z",
+            "sections": [
+                "Node Classification Model",
+                "node_class Configuration",
+                "Placement Constraints",
+                "Scheduling Behavior",
+                "Resource Allocation Model",
+                "Failure Redistribution",
+                "Rolling Deployment Strategy"
+            ]
+        },
+        {
+            "file": "DEV-542_Nomad_Security_Soham_Mukherjee.pdf",
+            "title": "DEV-542: Nomad Security Documentation",
+            "timestamp": "2026-03-02T13:35:01.582653Z",
+            "sections": [
+                "ACL System Architecture",
+                "Token Lifecycle",
+                "TLS Configuration Details",
+                "Policy Examples",
+                "Vault Integration for Secret Injection",
+                "Job-level Policy Enforcement",
+                "Security Hardening Checklist"
+            ]
+        },
+        {
+            "file": "DEV-543_Nomad_Namespace_Usage_Soham_Mukherjee.pdf",
+            "title": "DEV-543: Nomad Namespace Usage & Best Practices",
+            "timestamp": "2026-03-02T13:35:18.102135Z",
+            "sections": [
+                "Namespace Isolation Model",
+                "Multi-team Separation Strategy",
+                "ACL Deployment per Namespace",
+                "Security Boundaries",
+                "Enterprise Deployment Patterns"
+            ]
+        },
+        {
+            "file": "DEV-544_Troubleshooting_Guide_Soham_Mukherjee.pdf",
+            "title": "DEV-544: HashiCorp Stack Troubleshooting Guide",
+            "timestamp": "2026-03-02T13:35:36.561071Z",
+            "sections": [
+                "Nomad Failure Flow",
+                "Consul Quorum Troubleshooting",
+                "Vault Sealed State Handling",
+                "Snapshot Restore Procedure",
+                "Incident Response Flow",
+                "Monitoring Metrics",
+                "Real-world Failure Simulation Scenarios"
+            ]
+        }
+    ]
+}
